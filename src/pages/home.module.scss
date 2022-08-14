@@ -1,0 +1,51 @@
+.content {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 7.625rem;
+    position: relative;
+    
+
+    input {
+        width: 100%;
+        background-color: var(--white-500);
+        border-radius: 0.5rem;
+        height: 3.125rem;
+        font-size: 1.25rem;
+        text-align: center;
+        &::placeholder {
+                color: var(--gray-400);
+            }
+    }
+
+    ul {
+        list-style-type: none;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        margin-top: 3.75rem;
+        row-gap: 0.688rem;
+        column-gap: 1.5rem;
+    }
+
+    .btnAdd {
+        position: fixed;
+        right: 2rem;
+        bottom: 2rem;
+
+        background-color: var(--blue-400);
+        color: var(--white-500);
+
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        border-width: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+}
+
+
