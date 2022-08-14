@@ -1,0 +1,42 @@
+{
+  "Basic React hook Interface": {
+    "prefix": "rnfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "import { Container, Title } from './styles';",
+      "",
+      "export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/} = () => {",
+      "  return (",
+      "    <Container>",
+      "      <Title>Título</Title>",
+      "    </Container>",
+      "  );",
+      "};",
+      ""
+    ],
+    "description": "Basic React Native Interface with Styled Component"
+  },
+  "Basic React Styled Component": {
+    "prefix": "rnsc",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "export const Container = styled.div`",
+      "  flex: 1;",
+      "`;",
+      "",
+      "export const Title = styled.div`",
+      "  font-size: 30px;",
+      "`;",
+      ""
+    ],
+    "description": "Basic Styled Component for React Native"
+  },
+
+  "Theme styled Component": {
+    "prefix": "thme",
+    "body": ["${({ theme }) => theme.colors.purple400};"],
+    "description": "Styled theme shortcut"
+  }
+}
