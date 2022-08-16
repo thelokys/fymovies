@@ -4,6 +4,9 @@ O website tem como objetivo possibilita armazenar o progresso da sua série favo
   <img align="center" src=".github/assets/home.PNG" height="400px" />
 </p>
 
+## :books: Figma
+https://www.figma.com/file/sHgplkkA5OmScscbJDaiJQ/anime-app?node-id=0%3A1
+
 ## :bulb: Instalação
 
 Abaixe o projeto com
